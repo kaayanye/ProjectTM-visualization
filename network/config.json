@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Kayan"
+  },
+  "text": {
+    "more": "The size of the nodes represent the frequency of the word, and the edges that connect it represent other words with a high similarity or the same word from another category. The categories, or \u0027topics\u0027, are divided up by the color of the node, and are derived by applying an LDA-topic analysis on a bag-of-words corpus of consisting of the preprocessed \u0027cleaned\u0027 subtitles with all japanese words removed.",
+    "intro": "The frequency of words spoken in animes, taken from a dataset of anime subtitles, with topics of anime derived by LDA.",
+    "title": "Word frequencies in anime subtitles"
+  },
+  "legend": {
+    "edgeLabel": "Similarity between words",
+    "colorLabel": "Topic of animes",
+    "nodeLabel": "Word frequencies"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#fff",
+      "labelThreshold": 5,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 22
+    },
+    "graphProperties": {
+      "maxEdgeSize": 1,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 5,
+      "maxNodeSize": 50
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
