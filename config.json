@@ -42,12 +42,12 @@
     "graphProperties": {
 	"minEdgeSize": 0.5,
       "maxEdgeSize": 2,
-      "minNodeSize": 0.2,
-      "maxNodeSize": 1
+      "minNodeSize": 5,
+      "maxNodeSize": 50
     },
     "mouseProperties": {
-      "maxRatio": 1,
-      "minRatio": 1
+      "maxRatio": 5,
+      "minRatio": 0.75
     }
   }
 }
