@@ -9,17 +9,17 @@
   },
   "text": {
     "more": "The size of the nodes represent the frequency of the word, and the edges that connect it represent other words with a high similarity or the same word from another category. The categories, or \u0027topics\u0027, are divided up by the color of the node, and are derived by applying an LDA-topic analysis on a bag-of-words corpus of consisting of the preprocessed \u0027cleaned\u0027 subtitles with all japanese words removed.",
-    "intro": "The frequency of words spoken in animes, taken from a dataset of anime subtitles, with topics of anime derived by LDA. The size of each node is determined by the frequency that the word is spoken in animes of that topic, and the color of the node denotes the topic of anime. The edges between nodes lead to other nodes which contain similar words, or often the same word in another topic.",
-    "title": "Word frequencies in anime subtitles"
+    "intro": "The frequency of words spoken in animes, taken from a dataset of anime subtitles, with topics of anime derived by LDA.\nThe Edges connect all words within the same topic; certain words are repeated across topics and the nodes are thus between two topics. Nodes are colored for the topic they belong to the most.",
+    "title": "Topics and Their Word frequencies in Anime Subtitles"
   },
   "legend": {
-    "edgeLabel": "Similarity between words",
+    "edgeLabel": "Other words in topic(s)",
     "colorLabel": "Topic of animes",
     "nodeLabel": "Word frequencies"
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": true,
+    "groupSelectorAttribute": "topic",
     "hoverBehavior": "dim"
   },
   "informationPanel": {
@@ -33,19 +33,17 @@
       "defaultLabelBGColor": "#ddd",
       "activeFontStyle": "bold",
       "defaultLabelColor": "#000",
-      "labelThreshold": 20,
+      "labelThreshold": 10,
       "defaultLabelHoverColor": "#fff",
       "fontStyle": "bold",
       "hoverFontStyle": "bold",
-      "defaultLabelSize": 22,
-	"nodeHoverColor": "node",
-      "defaultNodeHoverColor": "#ddd"
+      "defaultLabelSize": 14
     },
     "graphProperties": {
-      "maxEdgeSize": 2,
-      "minEdgeSize": 0.5,
-      "minNodeSize": 5,
-      "maxNodeSize": 50
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
     },
     "mouseProperties": {
       "maxRatio": 20,
