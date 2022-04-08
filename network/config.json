@@ -19,7 +19,7 @@
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": true,
+    "groupSelectorAttribute": "topic",
     "hoverBehavior": "dim"
   },
   "informationPanel": {
@@ -37,21 +37,17 @@
       "defaultLabelHoverColor": "#fff",
       "fontStyle": "bold",
       "hoverFontStyle": "bold",
-      "defaultLabelSize": 22,
-	"nodeHoverColor": "node",
-	"edgeHoverSizeRatio": "50",
-	"edgeHoverExtremities": "true",
-      "defaultNodeHoverColor": "#ddd"
+      "defaultLabelSize": 14
     },
     "graphProperties": {
       "maxEdgeSize": 2,
       "minEdgeSize": 0.5,
-      "minNodeSize": 10,
-      "maxNodeSize": 100
+      "minNodeSize": 5,
+      "maxNodeSize": 60
     },
     "mouseProperties": {
-      "maxRatio": 20,
-      "minRatio": 0.75
+      "maxRatio": 10,
+      "minRatio": 0.5
     }
   }
 }
