@@ -9,7 +9,7 @@
   },
   "text": {
     "more": "The size of the nodes represent the frequency of the word, and the edges that connect it represent other words with a high similarity or the same word from another category. The categories, or \u0027topics\u0027, are divided up by the color of the node, and are derived by applying an LDA-topic analysis on a bag-of-words corpus of consisting of the preprocessed \u0027cleaned\u0027 subtitles with all japanese words removed.",
-    "intro": "The frequency of words spoken in animes, taken from a dataset of anime subtitles, with topics of anime derived by LDA.\nThe Edges connect all words within the same topic; certain words are repeated across topics and the nodes are thus between two topics. Nodes are colored for the topic they belong to the most.",
+    "intro": "Hover the cursor over a node to dim all unconnected nodes.\n Click a node to isolate the connected network of nodes.\n The frequency of words spoken in animes, taken from a dataset of anime subtitles, with topics of anime derived by LDA.\nThe Edges connect all words within the same topic; certain words are repeated across topics and the nodes are thus between two topics. Nodes are colored for the topic they belong to the most.",
     "title": "Topics and Their Word frequencies in Anime Subtitles"
   },
   "legend": {
